@@ -10,4 +10,8 @@ public class HelloController {
 	public String hello(){
 		return "hello";
 	}
+	@RequestMapping("/GIT")
+	public String hello2(){
+		return "git2";
+	}
 }
